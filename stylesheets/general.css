@@ -1,0 +1,53 @@
+/* 
+
+Author: Mr. Henry
+Date: YYYY-MM-DD
+
+*/
+
+/* @group Imports */
+
+@import url(typography.css);
+
+/* @end */
+
+
+/* @group Testing Borders */
+/* @end */
+
+
+/* @group Structure */
+body		        { background: url(images/backgrounds/bg-pattern.gif) repeat; }
+
+.wrapper            { margin: 0 auto; width: 980px; position: relative; }
+
+.left	            { float: left; }
+.right	            { float: right; }
+.clear	            { clear: both; }
+.hide	            { display: none; }
+
+hr 		            { display:none; }
+/* @end */
+
+
+/* @group Header */
+/* @end */
+
+
+/* @group Navigation */
+/* @end */
+
+
+/* @group Content */
+/* @end */
+
+
+/* @group Sidebar */
+/* @end */
+
+
+/* @group Footer */
+/* @end */
+
+/* @group Misc */
+/* @end */

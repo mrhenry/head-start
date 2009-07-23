@@ -1,0 +1,44 @@
+/* 
+
+Author: Mr. Henry
+Date: YYYY-MM-DD
+
+Stylesheet for Internet Explorer
+
+Version hacks:
+
+    .box {
+       background: #00f; all versions including Mac IE
+       //background: #f00; IE8 only
+       *background: #f00; IE 7 and below
+       _background: #f60; IE 6 and below
+    }
+    html>body .box { *background: #007; Only IE7 }
+
+
+More info: http://www.evotech.net/blog/2007/04/ie7-only-css-hacks/
+
+*/
+
+/* All IE versions */
+/*.box { background: #00f; } */
+img { -ms-interpolation-mode: bicubic; }
+
+
+/* Only IE8 */
+/*.box { //background: #f00; } */
+
+
+/* Only IE7 */
+/* html>body .box { *background: #007; } */
+
+
+/* IE7 and below*/
+/*.box { *background: #f00; } */
+
+
+/* IE6 and below*/
+/*.box { _background: #f60; IE 6 and below } */
+
+
+
