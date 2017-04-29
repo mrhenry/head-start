@@ -9,7 +9,7 @@ Fueled by jQuery
 
 //jQuery.noConflict();
 
-jQuery(document).ready(function(){
+jQuery(document).ready(() => {
     
     /* FUNCTION NAME
     -----------------------------------------------------*/
